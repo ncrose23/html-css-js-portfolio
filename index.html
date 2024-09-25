@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav id = "desktop-nav">
+        
         <div class = "logo" > Nicholas Rose </div>
         <div>
             <ul class = "nav-links">
@@ -66,13 +67,13 @@
                 src="./assets/linkedin.png" 
                 alt="My LinkedIn profile"
                 class = "icon" 
-                onclick= "location.href = 'https://www.linkedin.com/in/nicholasrose23/'"
+                onclick= "window.open('https://www.linkedin.com/in/nicholasrose23/', '_blank')"
                 />
                 <img 
                 src="./assets/github.png" 
                 alt="My Github profile"
                 class = "icon" 
-                onclick= "location.href = 'https://github.com/'"
+                onclick= "window.open('https://github.com/ncrose23', '_blank')"
                 />
             </div>
         </div>
@@ -96,8 +97,8 @@
                         alt="Experience icon"
                         class = "icon"
                         />
-                        <h3>Experience</h3>
-                        <p>2+ years <br />Frontend Development</p>
+                        <h3>Roles</h3>
+                        <p>1 year<br />Treasurer/Operations Chair<br />Computer Science Consultant</p>
                     </div>
                     <div class="details-container">
                         <img 
@@ -106,13 +107,13 @@
                         class = "icon"
                         />
                         <h3>Education</h3>
-                        <p>BS in Computer Science, Minor in Global Business <br /> Pursuing Masters of Business Analytics in Fall 2025</p>
+                        <p>Pursuing Masters of Business Analytics in Fall 2025<br>BS in Computer Science, Minor in Global Business</p>
                     </div>
                 </div>
                 <div class = "text-container">
                     <p>
-                        Thanks for viewing my website! I am a senior Computer Science student at William & Mary who has a passion for software and data engineering and it's applications.
-                        I'm looking to make an impact in the tech industry as an intern or entry level developer by utilizing and building upon the skills I've learned as a student, tutor, and extern over the past 3 years.
+                        Thanks for viewing my website! <br>I am a senior Computer Science student at William & Mary who has a passion for software and data engineering and it's applications.
+                        I'm looking to make an impact in the tech industry as an intern or entry level developer by utilizing and building upon the skills I've learned as a student, tutor, and leader over the past 3 years.
                     </p>
                 </div>
             </div>
@@ -181,21 +182,31 @@
                                 <p>Intermediate</p>
                             </div>
                     </article>
-                    </div>
-                </div>
-                <div class = "details-container">
-                    <h2 class = "experience-sub-title">Other Technical Expertise</h2>
-                    <div class = "article-container">
                     <article>
                         <img src="./assets/checkmark.png" 
                         alt="Experience icon"
                         class = "icon"
                         />
                             <div>
-                                <h3>SQL</h3>
-                                <p>Basic</p>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
                             </div>
                     </article>
+                    </div>
+                </div>
+                <div class = "details-container">
+                    <h2 class = "experience-sub-title">Other Technical Expertise</h2>
+                    <div class = "article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class = "icon"
+                            />
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Experienced</p>
+                                </div>
+                        </article>
                     <article>
                         <img src="./assets/checkmark.png" 
                         alt="Experience icon"
@@ -222,10 +233,20 @@
                         class = "icon"
                         />
                             <div>
-                                <h3>Git</h3>
-                                <p>Experienced</p>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
                             </div>
                     </article>
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        />
+                            <div>
+                                <h3>Windows, Mac, and Linux OS</h3>
+                                <p>Experienced</p>
+                            </div>
+                </article>
                     <article>
                         <img src="./assets/checkmark.png" 
                         alt="Experience icon"
@@ -254,20 +275,21 @@
             <div class = "about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/project-1.png" 
+                    <img src="assets/ssl.png" 
                     alt="project 1"
                     class="project-img"
                     />
                 </div>
-                <h2 class = "experience-sub-title project-title">Project One</h2>
+                <h2 class = "experience-sub-title project-title">Python APK Script</h2>
+                
+                    <p class = "section__text__p1">Created python scripts to search APKs from 100 Android applications for SSL implementation errors, 
+                        HTTP misuses, dangerous permissions and other security issues with a small team. <br> - </p>
+               
                 <div class = "btn-container">
                     <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
+                    onclick= "window.open('https://github.com/ncrose23/mobile-app-final-project/', '_blank')"
+                    >
                         Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
-                        Live Demo
                     </button>
                 </div>
             </div>
@@ -278,34 +300,30 @@
                     class="project-img"
                     />
                 </div>
-                <h2 class = "experience-sub-title project-title">Project Two</h2>
+                <h2 class = "experience-sub-title project-title">Anti Mobile Phone Addiction App</h2>
+                <p>Created a rudimentary app using Android Studio to help people with their mobile phone addictions.<br> - </p>
                 <div class = "btn-container">
                     <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
+                    onclick= "window.open('https://github.com/ncrose23/anti-mobile-phone-addiction-app/', '_blank')"
+                    >
                         Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
-                        Live Demo
                     </button>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/project-3.png" 
+                    <img src="assets/Screenshot 2024-09-24 at 8.54.15 PM.png" 
                     alt="project 3"
                     class="project-img"
                     />
                 </div>
-                <h2 class = "experience-sub-title project-title">Project Three</h2>
+                <h2 class = "experience-sub-title project-title">Memory Game</h2>
+                <p class = "section__text__p1">I created a memory game using Java and Java Swing GUI elements. Features functioning leaderboard to keep track of who's got the best brain. Instructions to play are on my Github! <br> - </p>
                 <div class = "btn-container">
                     <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
+                    onclick= "window.open('https://github.com/ncrose23/Memory-Game/', '_blank')"
+                    >
                         Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" 
-                    onclick ="location.href = 'https://github.com/'" >
-                        Live Demo
                     </button>
                 </div>
             </div>
@@ -335,7 +353,7 @@
                 alt="LinkedIn icon"
                 class="icon contact-icon"
                 />
-                <p><a href = "https://www.linkedin.com/in/nicholasrose23/">LinkedIn</p>
+                <p><a onclick= "window.open('https://www.linkedin.com/in/nicholasrose23/', '_blank')">LinkedIn</p>
             </div>
         </div>
     </section>
@@ -351,6 +369,7 @@
             </div>
         </nav>
         <p>Copyright &#169; 2024 Nicholas Rose. All Rights Reserved.</p>
+        <p>Programmed using HTML, CSS, and JavaScript. View project on my <a href="https://github.com/ncrose23" target="_blank">GitHub</a>.<br>-</p>
     </footer>
     <script src="script.js"></script>
 </body>

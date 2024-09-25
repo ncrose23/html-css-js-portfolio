@@ -197,6 +197,7 @@ section {
 .section__text__p2{
     font-size: 1.9rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .title {
@@ -380,6 +381,8 @@ article .icon{
     width: 90%;
     height: 90%;
 }
+
+
 
 .project-title{
     margin: 1rem;
